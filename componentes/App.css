@@ -1,0 +1,119 @@
+.app-container {
+  display: flex;
+  background: linear-gradient(145deg, #e4a8c4, #ffffff);
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para Hola Mundo */
+.hola-mundo {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.hola-mundo h1 {
+  color: #000000;
+  font-size: 40px;
+}
+
+/* Estilo para la Tarjeta de Presentación */
+.tarjeta {
+  padding: 20px;
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 200px;
+}
+
+.tarjeta h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.tarjeta p {
+  color: #666;
+  font-style: italic;
+}
+
+/* Estilo para el Contador */
+.contador {
+  text-align: center;
+}
+
+.contador h1 {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.contador button {
+  margin: 10px;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: black, 25%;
+  cursor: pointer;
+}
+
+.contador button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para Lista de Tareas */
+.lista-tareas {
+  text-align: center;
+}
+
+.lista-tareas input {
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.lista-tareas button {
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.lista-tareas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-tareas li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lista-tareas li.completada {
+  text-decoration: line-through;
+  text-decoration-color: #ff0000;
+}
+
+/* Estilo para el Formulario Simple */
+.formulario {
+  text-align: center;
+}
+
+.formulario input {
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: -35px; 
+}
+
+
+.formulario button {
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.formulario p {
+  font-size: 20px;
+  color: green;
+}
